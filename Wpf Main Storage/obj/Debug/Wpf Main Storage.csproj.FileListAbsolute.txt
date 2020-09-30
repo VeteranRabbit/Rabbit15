@@ -1,0 +1,25 @@
+D:\webapps\Wpf Main Storage\bin\Debug\Wpf Main Storage.exe.config
+D:\webapps\Wpf Main Storage\bin\Debug\Wpf Main Storage.exe
+D:\webapps\Wpf Main Storage\bin\Debug\Wpf Main Storage.pdb
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf Main Storage.csprojAssemblyReference.cache
+D:\webapps\Wpf Main Storage\obj\Debug\MainWindow.g.cs
+D:\webapps\Wpf Main Storage\obj\Debug\App.g.cs
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf Main Storage_MarkupCompile.cache
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf Main Storage_MarkupCompile.lref
+D:\webapps\Wpf Main Storage\obj\Debug\MainWindow.baml
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf Main Storage.g.resources
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf_Main_Storage.Properties.Resources.resources
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf Main Storage.csproj.GenerateResource.cache
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf Main Storage.csproj.CoreCompileInputs.cache
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf Main Storage.exe
+D:\webapps\Wpf Main Storage\obj\Debug\Wpf Main Storage.pdb
+D:\webapps\Wpf Main Storage\obj\Debug\BuyWindow.g.cs
+D:\webapps\Wpf Main Storage\obj\Debug\BuyWindow.baml
+D:\webapps\Wpf Main Storage\obj\Debug\SellWindow.g.cs
+D:\webapps\Wpf Main Storage\obj\Debug\SellWindow.baml
+D:\webapps\Wpf Main Storage\obj\Debug\ProWindow.g.cs
+D:\webapps\Wpf Main Storage\obj\Debug\ShopWindow.g.cs
+D:\webapps\Wpf Main Storage\obj\Debug\ProWindow.baml
+D:\webapps\Wpf Main Storage\obj\Debug\ShopWindow.baml
+D:\webapps\Wpf Main Storage\obj\Debug\SellerWindow.g.cs
+D:\webapps\Wpf Main Storage\obj\Debug\SellerWindow.baml

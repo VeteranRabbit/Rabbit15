@@ -1,0 +1,27 @@
+﻿<Window x:Class="Wpf_Main_Storage.BuyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Main_Storage"
+       mc:Ignorable="d" Background="Azure" FontSize="18" 
+        Title="ثبت خرید" Height="600" Width="850">
+    <Grid Loaded="Grid_Loaded">
+        <Button x:Name="Btn_Submit" Content="ثبت خرید" HorizontalAlignment="Left" Margin="340,160,0,0" VerticalAlignment="Top" Width="158" Click="Btn_Submit_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="756,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"><Span FlowDirection="RightToLeft"><Run Text="نوع"/><Run Text=" کالا"/><Run Text=":"/><Run Text=" "/></Span></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="756,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"><Run FlowDirection="RightToLeft" Text="از شرکت:"/></TextBlock>
+        <ComboBox x:Name="Combo_Kala" HorizontalAlignment="Left" Margin="630,91,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Combo_Kala_SelectionChanged" SelectedIndex="1" />
+        <TextBox x:Name="txt_price" HorizontalAlignment="Left" Height="30" Margin="402,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="527,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"><Run FlowDirection="RightToLeft" Text="قیمت :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="527,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"><Run FlowDirection="RightToLeft" Text="واحد خرید:"/></TextBlock>
+        <TextBlock x:Name="lbl_unit" HorizontalAlignment="Left" Margin="402,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"><Run FlowDirection="RightToLeft" Foreground="Blue" Text="باکس"/></TextBlock>
+        <TextBox x:Name="txt_amount" HorizontalAlignment="Left" Height="30" Margin="215,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="340,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62"><Run FlowDirection="RightToLeft" Text="تعداد :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="340,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62"><Run FlowDirection="RightToLeft" Text="تاریخ :"/></TextBlock>
+        <ComboBox x:Name="Combo_sherkat" HorizontalAlignment="Left" Margin="630,42,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Combo_sherkat_SelectionChanged"  />
+        <TextBox x:Name="txt_description" HorizontalAlignment="Left" Height="90" Margin="13,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="138,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"><Run FlowDirection="RightToLeft" Text="توضیحات:"/></TextBlock>
+        <DataGrid x:Name="Dg_1" HorizontalAlignment="Left" Height="344" Margin="13,215,0,0" VerticalAlignment="Top" Width="819"/>
+        <DatePicker x:Name="date_date" HorizontalAlignment="Left" Margin="200,91,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
